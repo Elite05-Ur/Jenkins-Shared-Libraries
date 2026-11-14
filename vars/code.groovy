@@ -1,3 +1,3 @@
 def call(String url , String branch){
-  sh "git url: "${url}" , "${branch}""
+  sh "git clone url: "${url}" , "${branch}""
 }
